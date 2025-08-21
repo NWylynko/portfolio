@@ -1,7 +1,7 @@
 
 export const projects = [
     {
-        name: "Clerk.com Docs",
+        name: "Clerk Docs",
         year: "2025",
         urls: ["/clerk-docs", "/"]
     },
