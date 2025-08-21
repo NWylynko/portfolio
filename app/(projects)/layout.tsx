@@ -8,7 +8,7 @@ export default function ProjectsLayout({
     return (
         <div className="p-4 pt-2 h-svh w-svw flex flex-col">
             <Nav />
-            <main className="p-4 border border-gray-600 rounded-md shadow size-full">{children}</main>
+            <main className="p-4 border border-gray-600 rounded-md shadow size-full background-pattern">{children}</main>
         </div>
     );
 }
