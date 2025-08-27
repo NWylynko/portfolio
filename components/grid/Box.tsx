@@ -8,7 +8,7 @@ type BoxProps = PropsWithChildren<{
 
 export const Box = (props: BoxProps) => {
   // Calculate the x and y offset from the center (384px, 384px) using polar coordinates
-  const center = 384; // Half of 768px section
+  const center = 768 / 2; // Half of 768px section
   const radians = (props.angle * Math.PI) / 180;
   const x = center + Math.cos(radians) * props.offset;
   const y = center + Math.sin(radians) * props.offset;
@@ -22,7 +22,7 @@ export const Box = (props: BoxProps) => {
         }deg)`,
       }}
     >
-      {props.children}
+      <div className="inline-block grid-blur">{props.children}</div>
     </div>
   );
 };
