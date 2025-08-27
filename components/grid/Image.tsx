@@ -9,7 +9,7 @@ type ImageProps = {
 
 export const Image = (props: ImageProps) => {
   return (
-    <div className="bg-white p-8 pb-32 shadow-[0px_0px_5rem_rgba(150,150,150,0.25)]">
+    <div className="bg-white p-4 md:p-8 pb-16 md:pb-32 shadow-[0px_0px_2rem_rgba(150,150,150,0.25)] md:shadow-[0px_0px_5rem_rgba(150,150,150,0.25)]">
       <_Image
         src={props.src}
         alt={props.alt}

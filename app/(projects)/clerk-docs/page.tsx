@@ -17,8 +17,9 @@ export default function ClerkDocs() {
             size={0.22}
           />
         </Box>
-        <Box rotate={-15} angle={235} offset={475}>
-          <Text type="title">Clerk Authentication Documentation</Text>
+        <Box rotate={-15} angle={265} offset={530}>
+          <Text type="title">Clerk Authentication</Text>
+          <Text type="title">Documentation</Text>
         </Box>
       </Section>
     </Grid>
